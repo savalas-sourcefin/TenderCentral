@@ -6,7 +6,7 @@ Feature: Department Constants API
     When method get
     Then status 200
     And match response.message == 'Departments retrieved successfully'
-    And match response.count == 875
+    And match response.count == 876
 
 #    And match response == '#[]'
 #    And match each response ==
