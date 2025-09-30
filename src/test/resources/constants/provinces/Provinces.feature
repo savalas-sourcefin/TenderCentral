@@ -8,7 +8,7 @@ Feature: Province Constants API
     Then status 200
     And match response.success == true
     And match response.message == 'Provinces retrieved successfully'
-    And match response.count == 11
+    And match response.count == 10
     And match response.data[*].name contains 'Gauteng', 'Western Cape', 'KwaZulu-Natal', 'Free State', 'Limpopo', 'Mpumalanga', 'Northern Cape','North West', 'National'
 
 
