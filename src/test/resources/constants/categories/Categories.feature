@@ -7,7 +7,7 @@ Feature: Category Constants API
     When method get
     Then status 200
     And match response.message == 'Categories retrieved successfully'
-    And match response.count == 92
+    And match response.count == 93
 #    And match response == '#[]'
 #    And match each response ==
 #    """
